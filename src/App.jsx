@@ -64,7 +64,7 @@ export default function App() {
                   onYearRange={setYearRange}
                 />
                 <KpiCards data={filtered} />
-                <div className="charts-row1" style={{ gridTemplateColumns: 'repeat(2, 1fr)' }}>
+                <div className="charts-row1">
                   <PlatformPieChart data={filtered} />
                   <GenreBarChart data={filtered} />
                 </div>
